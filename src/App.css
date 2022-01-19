@@ -1,0 +1,16 @@
+.vv-container {
+  margin-right: 50%;
+  display: flex;
+}
+
+.vv-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: auto;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
