@@ -47,16 +47,15 @@ const Header = () => {
                   Contact
                 </Link>
               </li>
-              <li className="nav-item dropdown">
-                <a
+              <li className="nav-item dropdown dropdown-button">
+                <button
                   className="nav-link dropdown-toggle link-dark"
                   id="navbarDropdown"
-                  role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Vanity
-                </a>
+                </button>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
                     <Link className="dropdown-item link-dark" to="/skincare">
