@@ -3,12 +3,19 @@ import VVLogo from "../../../assets/images/VirtualVanityLogo.png";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <div className="vv-container">
-        <img src={VVLogo} alt="virtual vanity logo" className="vv-image" />
+        <a href="#home">
+          <img src={VVLogo} alt="virtual vanity logo" className="vv-image" />
+        </a>
       </div>
-      <h1>Welcome to My Virtual Vanity</h1>
-    </div>
+
+      <div>
+        <h3 className="welcome-container">
+          <em>Welcome to My Virtual Vanity</em>
+        </h3>
+      </div>
+    </>
   );
 };
 

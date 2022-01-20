@@ -50,7 +50,7 @@ const Contact = () => {
     <>
       <div className="contact-page">
         <div className="contact-page-style">
-          <h1>Contact Me</h1>
+          <h1 className="text-center">Contact Me</h1>
           <ul className="contact-list">
             <li>
               <strong>Call Me: </strong>
@@ -67,7 +67,9 @@ const Contact = () => {
             <li>
               <strong>Connect with me on LinkedIn: </strong>
               <a href="https://www.linkedin.com/in/pamelahammond94/">
-                <span>https://www.linkedin.com/in/pamelahammond94</span>
+                <span className="text-break">
+                  https://www.linkedin.com/in/pamelahammond94
+                </span>
               </a>
             </li>
             <li>
@@ -79,47 +81,38 @@ const Contact = () => {
             <br />
             <li>Or fill out this form and I will get back to you!</li>
           </ul>
-          <div>
-            <div>
-              <div id="contact">
-                <div className="contact-form">
-                  <form ref={form} onSubmit={sendEmail}>
-                    <p className="contact-title">Contact Me</p>
-                    <label className="label-color">Name</label>
-                    <textarea
-                      type="text"
-                      value={formState.user_name}
-                      name="user_name"
-                      onChange={handleChange}
-                      required
-                    />
-                    <label className="label-color">Email</label>
-                    <textarea
-                      type="email"
-                      value={formState.user_email}
-                      name="user_email"
-                      onChange={handleChange}
-                      required
-                    />
-                    <label className="label-color">Message</label>
-                    <textarea
-                      value={formState.message}
-                      name="message"
-                      onChange={handleChange}
-                      required
-                    />
-                    <div className="button-div">
-                      <button
-                        className="contact-button"
-                        type="submit"
-                        value="Send"
-                      >
-                        Send
-                      </button>
-                    </div>
-                  </form>
+          <div id="contact">
+            <div className="contact-form">
+              <form ref={form} onSubmit={sendEmail}>
+                <label>Name</label>
+                <input
+                  type="text"
+                  value={formState.user_name}
+                  name="user_name"
+                  onChange={handleChange}
+                  required
+                />
+                <label>Email</label>
+                <input
+                  type="email"
+                  value={formState.user_email}
+                  name="user_email"
+                  onChange={handleChange}
+                  required
+                />
+                <label>Message</label>
+                <textarea
+                  value={formState.message}
+                  name="message"
+                  onChange={handleChange}
+                  required
+                />
+                <div className="button-div">
+                  <button className="contact-button" type="submit" value="Send">
+                    Send
+                  </button>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>

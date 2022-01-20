@@ -8,7 +8,10 @@ const Footer = () => {
     <div className="fixed-bottom">
       <ul className="nav justify-content-center">
         <li className="nav-item">
-          <a className="nav-link" href="https://www.instagram.com/pamtheham_/">
+          <a
+            className="nav-link footer-link"
+            href="https://www.instagram.com/pamtheham_/"
+          >
             <img
               src={instagramLogo}
               alt="Instagram logo"
@@ -18,7 +21,7 @@ const Footer = () => {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://pin.it/2hHKfDZ">
+          <a className="nav-link footer-link" href="https://pin.it/2hHKfDZ">
             <img
               src={pinterestLogo}
               alt="Pinterest logo"
@@ -28,7 +31,10 @@ const Footer = () => {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://www.tiktok.com/@pamtheham_">
+          <a
+            className="nav-link footer-link"
+            href="https://www.tiktok.com/@pamtheham_"
+          >
             <img src={tiktokLogo} alt="TikTok logo" width="40" height="auto" />
           </a>
         </li>
