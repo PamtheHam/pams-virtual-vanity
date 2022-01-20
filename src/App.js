@@ -1,8 +1,9 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/HomePages/Home/Home";
+import About from "./components/HomePages/About/About";
 import Skincare from "./components/ProductPages/Skincare/Skincare";
 import Cosmetics from "./components/ProductPages/Cosmetics/Cosmetics";
 import Haircare from "./components/ProductPages/Haircare/Haircare";
@@ -12,13 +13,12 @@ function App() {
   return (
     <Router>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/skincare" element={<Skincare />}></Route>
-        <Route path="/cosmetics" element={<Cosmetics />}></Route>
-        <Route path="/haircare" element={<Haircare />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-      </Routes>
+      <Route exact path="/" component={Home}></Route>
+      <Route exact path="/about" component={About}></Route>
+      <Route exact path="/skincare" component={Skincare}></Route>
+      <Route exact path="/cosmetics" component={Cosmetics}></Route>
+      <Route exact path="/haircare" component={Haircare}></Route>
+      <Route exact path="/contact" component={Contact}></Route>
       <Footer />
     </Router>
   );

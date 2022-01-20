@@ -1,19 +1,20 @@
 import React from "react";
 import logo from "../../assets/images/VVLogo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#home" to="/">
+          <Link className="navbar-brand" to="/">
             <img
               src={logo}
               alt="virtual vanity logo"
               width="60"
               height="auto"
             />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -28,32 +29,29 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link active link-dark"
                   aria-current="page"
-                  href="#home"
                   to="/"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link link-dark" href="#about" to="/about">
+                <Link className="nav-link link-dark" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link link-dark" href="#contact" to="/contact">
+                <Link className="nav-link link-dark" to="/contact">
                   Contact
-                </a>
+                </Link>
               </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle link-dark"
                   id="navbarDropdown"
                   role="button"
-                  href="#cosmetics"
-                  to="/cosmetics"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
@@ -61,31 +59,19 @@ const Header = () => {
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a
-                      className="dropdown-item link-dark"
-                      href="#skincare"
-                      to="/skincare"
-                    >
+                    <Link className="dropdown-item link-dark" to="/skincare">
                       Skincare
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      className="dropdown-item link-dark"
-                      href="#cosmetics"
-                      to="/cosmetics"
-                    >
+                    <Link className="dropdown-item link-dark" to="/cosmetics">
                       Cosmetics
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      className="dropdown-item link-dark"
-                      href="#haircare"
-                      to="/haircare"
-                    >
+                    <Link className="dropdown-item link-dark" to="/haircare">
                       Haircare
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
