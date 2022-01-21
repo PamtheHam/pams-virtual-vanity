@@ -5,9 +5,9 @@ import MyIntro from "./MyIntro";
 const About = () => {
   return (
     <>
-      <div className="about-container">
-        <div className="about-paragraph">
-          <div className="text-center about-this">
+      <div className="intro-container">
+        <div className="intro-paragraph">
+          <div className="text-center about-right">
             <h3>About This Website</h3>
           </div>
           <figure>
@@ -16,7 +16,6 @@ const About = () => {
               src={MakeupApplicationPH}
               className="makeup-app-pic"
             />
-            <figcaption></figcaption>
           </figure>
         </div>
       </div>
