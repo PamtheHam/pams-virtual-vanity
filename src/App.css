@@ -28,6 +28,41 @@ button {
   text-decoration: none;
 }
 
+/* about */
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-paragraph {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+  padding: 2em;
+  border: black double 4px;
+}
+
+.makeup-app-pic {
+  width: auto;
+  max-height: 200px;
+  border: black double 1px;
+}
+
+figure {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+.about-this {
+  margin-right: 2em;
+}
+
 /* contact */
 
 .contact-page {
@@ -40,7 +75,7 @@ button {
   display: inline-block;
   justify-content: center;
   align-items: center;
-  border: 2px double #000;
+  border: 4px double #000;
   width: 100%;
   height: auto;
   align-items: center;
@@ -107,5 +142,14 @@ ul.contact-list {
   .contact-button {
     padding: 10px 10px;
     width: 30%;
+  }
+
+  .about-this {
+    font-size: medium;
+  }
+
+  .makeup-app-pic {
+    width: auto;
+    max-height: 150px;
   }
 }

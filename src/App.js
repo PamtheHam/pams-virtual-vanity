@@ -12,16 +12,18 @@ import Contact from "./components/ContactForm/Contact";
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <Route exact path="/" component={Home}></Route>
-      <Route exact path="/about" component={About}></Route>
-      <Route exact path="/skincare" component={Skincare}></Route>
-      <Route exact path="/cosmetics" component={Cosmetics}></Route>
-      <Route exact path="/haircare" component={Haircare}></Route>
-      <Route exact path="/contact" component={Contact}></Route>
-      <Footer />
-    </Router>
+    <>
+      <Router>
+        <Header />
+        <Route exact path="/" component={Home}></Route>
+        <Route exact path="/about" component={About}></Route>
+        <Route exact path="/skincare" component={Skincare}></Route>
+        <Route exact path="/cosmetics" component={Cosmetics}></Route>
+        <Route exact path="/haircare" component={Haircare}></Route>
+        <Route exact path="/contact" component={Contact}></Route>
+        <Footer />
+      </Router>
+    </>
   );
 }
 
