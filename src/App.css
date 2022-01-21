@@ -29,18 +29,20 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 2em;
 }
 
 .vv-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2em;
+  padding: 2em;
 }
 
 .vv-image {
   width: auto;
   max-height: 200px;
+  border: black double 1px;
 }
 
 button {
@@ -58,7 +60,7 @@ button {
 }
 
 .intro-paragraph {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin: 2em;
@@ -78,10 +80,11 @@ button {
 }
 
 .my-intro {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 2em;
+  margin-top: 2em;
   padding: 2em;
   border: black double 4px;
   background-color: white;
@@ -95,6 +98,23 @@ button {
 
 .about-left {
   margin-left: 2em;
+}
+
+.my-story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2em;
+  margin-bottom: 2em;
+  padding: 2em;
+  border: black double 4px;
+  background-color: white;
+}
+
+.blue-eyeliner-pic {
+  width: auto;
+  max-height: 250px;
+  border: black double 1px;
 }
 
 /* contact */
@@ -178,13 +198,22 @@ ul.contact-list {
     width: 50%;
   }
 
-  .about-this {
+  .about-left,
+  .about-right {
     font-size: medium;
   }
 
   .makeup-app-pic,
-  .rainbow-eyeshadow-pic {
+  .rainbow-eyeshadow-pic,
+  .blue-eyeliner-pic {
     width: auto;
     max-height: 150px;
+  }
+
+  .image-div {
+    display: block;
+  }
+  .intro-paragraph {
+    display: block;
   }
 }

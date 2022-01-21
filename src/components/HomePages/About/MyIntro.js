@@ -5,22 +5,16 @@ const MyIntro = () => {
   return (
     <>
       <div className="intro-container">
-        <div className="my-intro">
-          <div className="text-center">
-            <h4>Nice to meet you. My name is Pam.</h4>
-          </div>
-        </div>
-      </div>
-
-      <div className="intro-container">
         <div className="intro-paragraph">
-          <figure>
-            <img
-              alt="Pamela Hammond"
-              src={RainbowShadowPH}
-              className="rainbow-eyeshadow-pic"
-            />
-          </figure>
+          <div className="image-div">
+            <figure>
+              <img
+                alt="Pamela Hammond"
+                src={RainbowShadowPH}
+                className="rainbow-eyeshadow-pic"
+              />
+            </figure>
+          </div>
           <div className="text-center about-left">
             <p>
               Lover of all things beauty, I created this website to share my
