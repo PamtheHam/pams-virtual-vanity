@@ -78,35 +78,49 @@ const Contact = () => {
                 <span>Hammondpamelac@gmail.com</span>
               </a>
             </li>
-            <br />
             <li>Or fill out this form and I will get back to you!</li>
           </ul>
           <div id="contact">
             <div className="contact-form">
               <form ref={form} onSubmit={sendEmail}>
-                <label>Name</label>
-                <input
-                  type="text"
-                  value={formState.user_name}
-                  name="user_name"
-                  onChange={handleChange}
-                  required
-                />
-                <label>Email</label>
-                <input
-                  type="email"
-                  value={formState.user_email}
-                  name="user_email"
-                  onChange={handleChange}
-                  required
-                />
-                <label>Message</label>
-                <textarea
-                  value={formState.message}
-                  name="message"
-                  onChange={handleChange}
-                  required
-                />
+                <div className="mt-2 text-center">
+                  <label for="Name input" className="form-label">
+                    Name
+                  </label>
+                  <input
+                    className="form-control"
+                    type="text"
+                    value={formState.user_name}
+                    name="user_name"
+                    onChange={handleChange}
+                    required
+                  />
+                  <div className="mt-1 text-center">
+                    <label for="email input" className="form-label">
+                      Email
+                    </label>
+                    <input
+                      className="form-control"
+                      type="email"
+                      value={formState.user_email}
+                      name="user_email"
+                      onChange={handleChange}
+                      required
+                    />
+                  </div>
+                </div>
+                <div className="mb-2 mt-1 text-center">
+                  <label for="message input" className="form-label">
+                    Message
+                  </label>
+                  <textarea
+                    className="form-control"
+                    value={formState.message}
+                    name="message"
+                    onChange={handleChange}
+                    required
+                  />
+                </div>
                 <div className="button-div">
                   <button className="contact-button" type="submit" value="Send">
                     Send

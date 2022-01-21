@@ -11,8 +11,8 @@ const Header = () => {
             <img
               src={logo}
               alt="virtual vanity logo"
-              width="60"
-              height="auto"
+              width="auto"
+              height="45"
             />
           </Link>
           <button
