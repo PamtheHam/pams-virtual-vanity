@@ -127,6 +127,23 @@ button {
   border: black double 1px;
 }
 
+
+/* skincare */
+
+.product-images {
+  width: auto;
+  max-height: 250px;
+  border: black double 1px;
+}
+
+
+/* cosmetics */
+
+
+/* haircare */
+
+
+
 /* contact */
 
 .contact-page {
