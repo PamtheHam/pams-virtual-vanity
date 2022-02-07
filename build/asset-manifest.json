@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/pams-virtual-vanity/static/css/main.ccbabec2.chunk.css",
+    "main.js": "/pams-virtual-vanity/static/js/main.adef35f6.chunk.js",
+    "main.js.map": "/pams-virtual-vanity/static/js/main.adef35f6.chunk.js.map",
+    "runtime-main.js": "/pams-virtual-vanity/static/js/runtime-main.2b02f2d2.js",
+    "runtime-main.js.map": "/pams-virtual-vanity/static/js/runtime-main.2b02f2d2.js.map",
+    "static/js/2.f14becac.chunk.js": "/pams-virtual-vanity/static/js/2.f14becac.chunk.js",
+    "static/js/2.f14becac.chunk.js.map": "/pams-virtual-vanity/static/js/2.f14becac.chunk.js.map",
+    "index.html": "/pams-virtual-vanity/index.html",
+    "static/css/main.ccbabec2.chunk.css.map": "/pams-virtual-vanity/static/css/main.ccbabec2.chunk.css.map",
+    "static/js/2.f14becac.chunk.js.LICENSE.txt": "/pams-virtual-vanity/static/js/2.f14becac.chunk.js.LICENSE.txt",
+    "static/media/BlueEyelinerPH.3d73f360.jpg": "/pams-virtual-vanity/static/media/BlueEyelinerPH.3d73f360.jpg",
+    "static/media/GlowScreen.46d286e7.JPG": "/pams-virtual-vanity/static/media/GlowScreen.46d286e7.JPG",
+    "static/media/Instagram.16c540ed.png": "/pams-virtual-vanity/static/media/Instagram.16c540ed.png",
+    "static/media/LipSleepingMask.fc59dfab.JPG": "/pams-virtual-vanity/static/media/LipSleepingMask.fc59dfab.JPG",
+    "static/media/MakeupApplicationPH.7ce461b8.jpg": "/pams-virtual-vanity/static/media/MakeupApplicationPH.7ce461b8.jpg",
+    "static/media/MaybellinePerfector.6f0ca19e.JPG": "/pams-virtual-vanity/static/media/MaybellinePerfector.6f0ca19e.JPG",
+    "static/media/Pinterest.f1ee4e19.png": "/pams-virtual-vanity/static/media/Pinterest.f1ee4e19.png",
+    "static/media/PoresNoMore.83b012d1.JPG": "/pams-virtual-vanity/static/media/PoresNoMore.83b012d1.JPG",
+    "static/media/RainbowShadowPH.09bd7b4c.jpg": "/pams-virtual-vanity/static/media/RainbowShadowPH.09bd7b4c.jpg",
+    "static/media/RosehipSeedOil.92e22077.JPG": "/pams-virtual-vanity/static/media/RosehipSeedOil.92e22077.JPG",
+    "static/media/TikTok.a3ae2a88.png": "/pams-virtual-vanity/static/media/TikTok.a3ae2a88.png",
+    "static/media/VVLogo.ed6b00ee.png": "/pams-virtual-vanity/static/media/VVLogo.ed6b00ee.png",
+    "static/media/VirtualVanityLogo.a5f7211d.png": "/pams-virtual-vanity/static/media/VirtualVanityLogo.a5f7211d.png",
+    "static/media/concealer.a0be37c4.jpg": "/pams-virtual-vanity/static/media/concealer.a0be37c4.jpg",
+    "static/media/liquidBronzer.eb4e0079.JPG": "/pams-virtual-vanity/static/media/liquidBronzer.eb4e0079.JPG",
+    "static/media/liquidHighlight.49cae242.jpg": "/pams-virtual-vanity/static/media/liquidHighlight.49cae242.jpg",
+    "static/media/macBlush.6a912870.JPG": "/pams-virtual-vanity/static/media/macBlush.6a912870.JPG",
+    "static/media/settingSpray.ab8e79f3.JPG": "/pams-virtual-vanity/static/media/settingSpray.ab8e79f3.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b02f2d2.js",
+    "static/js/2.f14becac.chunk.js",
+    "static/css/main.ccbabec2.chunk.css",
+    "static/js/main.adef35f6.chunk.js"
+  ]
+}

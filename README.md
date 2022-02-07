@@ -4,8 +4,6 @@ This virtual vanity is dedicated to all of my favorite beauty products: haircare
 
 ## Description
 
-The application uses the [express-handlebars](https://www.npmjs.com/package/express-handlebars) package to implement Handlebars.js for Views, the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect to a MySQL database for Models, and an [Express.js](https://expressjs.com/) API for Controllers.
-
 ---
 
 ## User Story
