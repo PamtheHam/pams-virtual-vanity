@@ -2,7 +2,7 @@ import React from "react";
 import GlowScreen from "../../../assets/images/skincare/GlowScreen.JPG";
 import LipSleepingMask from "../../../assets/images/skincare/LipSleepingMask.JPG";
 import RoseHipSeedOil from "../../../assets/images/skincare/RosehipSeedOil.JPG";
-import TheOrdinary from "../../../assets/images/skincare/TheOrdinaryProduct.jpg";
+
 
 const skincare = () => {
   return (
