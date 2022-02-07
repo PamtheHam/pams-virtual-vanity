@@ -23,6 +23,16 @@ p {
   margin-bottom: 0;
 }
 
+/* Navbar */
+
+.nav-link {
+  color: black !important;
+}
+
+.nav-link:hover {
+  color: grey !important;
+}
+
 /* home */
 
 .welcome-container {
